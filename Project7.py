@@ -1,3 +1,3 @@
-binary_output = ' '.join(format(ord(char), '08b') for char in input("Enter letters only to convert it into binary: "))
+binary_output = f"{ord(input('Enter only 1 character: ')):08b}"
 print("Here is it in binary")
 print(binary_output)
